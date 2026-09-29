@@ -1,0 +1,255 @@
+name,category,url,auth,hk_status,verified,note
+天文台天氣API weather.php,香港政府-天氣,https://data.weather.gov.hk/weatherAPI/opendata/weather.php,none,ok,2026-09-29,現時天氣/九天預報/警告/特別提示
+天文台氣候數據 opendata.php,香港政府-天氣,https://data.weather.gov.hk/weatherAPI/opendata/opendata.php,none,ok,2026-09-29,潮汐/日月出沒/歷史氣溫1884年起/能見度/閃電
+天文台地震 earthquake.php,香港政府-天氣,https://data.weather.gov.hk/weatherAPI/opendata/earthquake.php,none,ok,2026-09-29,地震速報+有感地震
+天文台農曆轉換,香港政府-天氣,https://data.weather.gov.hk/weatherAPI/opendata/lunardate.php,none,ok,,公曆轉農曆
+天文台分區1分鐘數據CSV,香港政府-天氣,https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_1min_temperature.csv,none,ok,2026-09-29,每分鐘更新 比正式API快
+天文台分區天氣照片,香港政府-戶外,https://www.hko.gov.hk/wxinfo/aws/hko_mica/,none,ok,2026-09-29,全港幾十個實況攝影點 直連jpg
+環保署AQHI,香港政府-環境,https://www.aqhi.gov.hk/epd/ddata/html/out/24aqhi_Eng.xml,none,ok,2026-09-29,空氣質素健康指數 XML/RSS
+九巴KMB ETA,香港政府-交通,https://data.etabus.gov.hk/v1/transport/kmb/,none,ok,2026-09-29,路線/車站/實時到站
+城巴CTB ETA,香港政府-交通,https://rt.data.gov.hk/v2/transport/citybus/,none,ok,2026-09-29,v2版
+綠色專線小巴GMB,香港政府-交通,https://data.etagmb.gov.hk,none,ok,2026-09-29,
+新大嶼山巴士NLB,香港政府-交通,https://rt.data.gov.hk/v2/transport/nlb/,none,ok,,
+港鐵下一班車,香港政府-交通,https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php,none,ok,2026-09-29,line+sta參數
+輕鐵班次,香港政府-交通,https://rt.data.gov.hk/v1/transport/mtr/lrt/getSchedule,none,ok,,
+港鐵巴士,香港政府-交通,https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule,none,ok,2026-09-29,POST JSON
+機管局航班資訊,香港政府-交通,https://www.hongkongairport.com/flightinfo-rest/rest/flights/past,none,ok,2026-09-29,航班狀態/閘口/行李帶
+停車場空置車位,香港政府-交通,https://api.data.gov.hk/v1/carpark-info-vacancy,none,ok,2026-09-29,實時空位+停車場資料
+交通快拍CCTV,香港政府-交通,https://static.data.gov.hk/td/traffic-snapshot-images/code/Traffic_Camera_Locations_Tc.csv,none,ok,2026-09-29,路面實況相 2分鐘更新
+特別交通消息,香港政府-交通,https://resource.data.one.gov.hk/td/en/specialtrafficnews.xml,none,ok,2026-09-29,封路/事故
+急症室等候時間,香港政府-醫療,https://www.ha.org.hk/opendata/aed/aedwtdata2-tc.json,none,ok,2026-09-29,注意2025年10月起用aedwtdata2新網址
+專科門診輪候,香港政府-醫療,https://data.gov.hk/tc-datasets/provider/hk-ha,none,ok,,SOPC數據集
+HKMA金管局API,香港政府-金融,https://api.hkma.gov.hk/public/,none,hk_only,2026-09-29,封部分海外數據中心IP 香港本地正常
+銀行OpenBanking,金融,https://developer.hsbc.com,free_key,ok,,HSBC/恒生/中銀/渣打 產品資訊API免費
+地址查詢ALS,香港政府-地理,https://www.als.gov.hk/lookup,none,ok,2026-09-29,地址轉標準地址+座標+信心分數
+地點搜尋geodata,香港政府-地理,https://geodata.gov.hk/gs/api/v1.0.0/locationSearch,none,hk_only,2026-09-29,海外伺服器連唔到 香港本地正常
+CSDI空間數據,香港政府-地理,https://portal.csdi.gov.hk,none,ok,,GeoJSON/WFS/WMS幾百個圖層
+香港地圖服務2.0,香港政府-地理,https://api.portal.hkmapservice.gov.hk,free_key,ok,,官方地圖tiles 唯一要key嘅政府API
+搵最近設施,香港政府-地理,https://api.data.gov.hk/v1/nearest-schools,none,ok,,學校/其他設施
+公眾假期1823,香港政府-民生,https://www.1823.gov.hk/common/ical/tc.json,none,ok,2026-09-29,JSON+iCal
+康文署設施數據,香港政府-民生,https://data.gov.hk/tc-datasets/provider/hk-lcsd,none,ok,,注意SmartPLAY訂場冇官方API
+立法會OData,香港政府-民生,https://www.legco.gov.hk/odata/chinese/index.html,none,ok,,表決/議員/會議
+統計處C&SD API,香港政府-民生,https://www.censtatd.gov.hk/api/,none,ok,,人口/CPI/GDP
+消委會油價通,香港政府-民生,https://data.gov.hk/tc-datasets?q=oil%20price,none,ok,,舊直連URL已改版 以數據集頁為準
+消委會網上價格一覽通,日常,https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json,none,ok,2026-09-29,全港超市逐件產品每日價格
+食環署誘蚊器指數,香港政府-戶外,https://data.gov.hk/tc-datasets?q=誘蚊器,none,ok,,蚊患指數 露營選址參考
+RTHK新聞RSS,香港政府-民生,https://rthk9.rthk.hk/rthk/news/rss/,none,ok,,
+DATA.GOV.HK CKAN目錄,平台,https://data.gov.hk/tc-data/api/3/action/package_search,none,ok,2026-09-29,只包含部分數據集
+歷史檔案API,平台,https://api.data.gov.hk/v1/historical-archive/,none,ok,2026-09-29,任何數據集歷史snapshot 每15分鐘 get-file回S3 location要跟redirect
+數據篩選API,平台,https://api.data.gov.hk/v2/filter,none,ok,,server-side query CSV/JSON
+OFCA郊野公園覆蓋,戶外,https://www.ofca.gov.hk/tc/consumer_focus/guide/safety/country_parks/mobile_network/index.html,none,ok,,冇API只有171幅電子地圖 遠足徑95%有覆蓋 冇signal打112駁999
+eBird康奈爾,世界-自然,https://api.ebird.org/v2/,free_key,ok,2026-09-29,香港region code=HK 冇key回403
+iNaturalist,世界-自然,https://api.inaturalist.org/v1/,none,ok,2026-09-29,香港70萬+觀察紀錄
+GBIF,世界-自然,https://api.gbif.org/v1/,none,ok,2026-09-29,香港236萬+筆生物紀錄
+Pl@ntNet認植物,世界-自然,https://my.plantnet.org,free_key,ok,,影相認植物 500次/日
+Xeno-canto雀聲,世界-自然,https://xeno-canto.org/api/2/recordings,none,ok,,全球雀鳥叫聲庫
+NASA APIs,世界-天文,https://api.nasa.gov,free_key,ok,2026-09-29,APOD/火星相/小行星 DEMO_KEY可試
+ISS位置,世界-天文,https://api.wheretheiss.at/v1/satellites/25544,none,ok,2026-09-29,實時經緯度
+Sunrise-Sunset,世界-天文,https://api.sunrise-sunset.org/json,none,ok,2026-09-29,日出日落暮光 回UTC要+8
+Launch Library火箭,世界-天文,https://ll.thespacedevs.com,none,ok,,發射時間表 未實測
+Overpass OSM查詢,世界-地圖,https://overpass-api.de/api/interpreter,none,ok,2026-09-29,香港47個營地節點 要User-Agent
+OpenTopoData海拔,世界-地圖,https://api.opentopodata.org/v1/,none,ok,2026-09-29,大帽山實測815m 支援路線profile
+Nominatim geocoding,世界-地圖,https://nominatim.openstreetmap.org,none,ok,,每秒1次限制 要User-Agent
+OpenRouteService,世界-地圖,https://openrouteservice.org,free_key,ok,,行山路線規劃/等時圈
+OpenStreetMap tiles,世界-地圖,https://tile.openstreetmap.org,none,ok,,留意tile使用政策
+Open-Meteo,世界-天氣,https://api.open-meteo.com/v1/forecast,none,ok,2026-09-29,按海拔天氣/UV/16日預報 非商用免費
+Open-Meteo Marine,世界-天氣,https://marine-api.open-meteo.com/v1/marine,none,ok,2026-09-29,浪高/海溫/swell
+met.no挪威氣象,世界-天氣,https://api.met.no/weatherapi/,none,ok,2026-09-29,必須帶User-Agent
+USGS地震,世界-天氣,https://earthquake.usgs.gov/earthquakes/feed/,none,ok,2026-09-29,GeoJSON feed
+OpenUV,世界-天氣,https://www.openuv.io,free_key,ok,,UV專門
+OpenAQ空氣,世界-天氣,https://api.openaq.org/v3/,free_key,ok,2026-09-29,v3起要key 實測401確認
+Wikipedia REST,世界-知識,https://zh.wikipedia.org/api/rest_v1/,none,ok,2026-09-29,香港童軍總會條目都有
+Wikidata SPARQL,世界-知識,https://query.wikidata.org,none,ok,,
+Frankfurter匯率,世界-金融,https://api.frankfurter.dev/v1/latest,none,ok,,歐央行匯率有HKD
+CoinGecko,世界-金融,https://api.coingecko.com,none,ok,,免費tier約30call/分鐘
+Alpha Vantage,世界-金融,https://www.alphavantage.co,free_key,ok,,每日25call
+Yahoo Finance非官方,世界-金融,,none,ok,,港股0005.HK 非官方隨時變 咪做核心依賴
+Nager.Date全球假期,世界-日曆,https://date.nager.at/api/v3/PublicHolidays/,none,ok,2026-09-29,100+國家
+timeapi.io時區,世界-日曆,https://timeapi.io/api/time/current/zone,none,ok,2026-09-29,WorldTimeAPI成日死用呢個
+WorldTimeAPI,世界-日曆,https://worldtimeapi.org,none,flaky,2026-09-29,實測冇回應 後備用timeapi.io
+RestCountries,世界-知識,https://restcountries.com,none,deprecated,2026-09-29,v3.1已deprecated 用前查最新文檔
+MyMemory翻譯,世界-語言,https://api.mymemory.translated.net/get,none,ok,2026-09-29,每日5000字免費 質素一般
+DeepL API Free,世界-語言,https://www.deepl.com/pro-api,free_key,ok,,每月50萬字符 中文質素好
+LibreTranslate,世界-語言,https://libretranslate.com,none,ok,,開源可self-host
+Free Dictionary,世界-語言,https://api.dictionaryapi.dev,none,ok,,英文釋義音標
+Open Food Facts,日常,https://world.openfoodfacts.org/api/v2/product/,none,ok,2026-09-29,掃barcode出營養 香港產品覆蓋一般
+USDA FoodData,日常,https://api.nal.usda.gov/fdc/v1/,free_key,ok,2026-09-29,通用食材營養 DEMO_KEY可試
+TheMealDB食譜,日常,https://www.themealdb.com/api/json/v1/1/,none,ok,2026-09-29,dev key=1免費 有隨機食譜
+Spoonacular,日常,https://spoonacular.com/food-api,free_key,ok,,150點/日 食譜+營養+餐單
+Edamam,日常,https://www.edamam.com,free_key,ok,,
+API Ninjas,日常,https://api-ninjas.com,free_key,ok,,營養/運動消耗卡路里
+Openverse CC圖庫,媒體,https://api.openverse.org/v1/images/,none,ok,2026-09-29,8億CC圖 教育用途最安全
+Unsplash,媒體,https://unsplash.com/developers,free_key,ok,,50req/hr
+Pexels,媒體,https://www.pexels.com/api/,free_key,ok,,200req/hr 有影片
+Pixabay,媒體,https://pixabay.com/api/docs/,free_key,ok,,
+Lorem Picsum佔位圖,媒體,https://picsum.photos,none,ok,2026-09-29,
+Wikimedia Commons,媒體,https://commons.wikimedia.org/w/api.php,none,ok,,歷史相片
+Freesound音效,媒體,https://freesound.org/docs/api/,free_key,ok,,
+Windy Webcams,戶外,https://api.windy.com/webcams,free_key,ok,,全球webcam聚合
+YouTube Data API,媒體,https://developers.google.com/youtube/v3,free_key,ok,,每日10000units 搵live cam 香港用到(唔同AI Studio)
+Open Trivia DB,教育,https://opentdb.com/api.php,none,ok,2026-09-29,4000+選擇題24分類
+Deck of Cards,教育,https://deckofcardsapi.com,none,ok,2026-09-29,虛擬啤牌
+PokeAPI,教育,https://pokeapi.co/api/v2/,none,ok,2026-09-29,教細路玩API最佳教材
+xkcd,教育,https://xkcd.com/info.0.json,none,ok,2026-09-29,
+Open Library,教育,https://openlibrary.org/search.json,none,ok,2026-09-29,4000萬書目+封面API
+Google Books,教育,https://www.googleapis.com/books/v1/volumes,free_key,ok,2026-09-29,冇key共用quota易429 建議申請key
+Met Museum,教育,https://collectionapi.metmuseum.org,none,ok,2026-09-29,47萬件藝術品
+Art Institute Chicago,教育,https://api.artic.edu/docs/,none,ok,,
+Telegram Bot API,膠水,https://core.telegram.org/bots/api,free_key,ok,,通知bot首選 免費無限
+ntfy.sh推送,膠水,https://ntfy.sh,none,ok,,curl一句推手機
+Discord Webhook,膠水,https://discord.com/developers/docs,free_key,ok,,
+QR Server,膠水,https://api.qrserver.com/v1/create-qr-code/,none,ok,,簽到/尋寶QR
+ip-api定位,膠水,http://ip-api.com,none,ok,,非商用免費
+is.gd短網址,膠水,https://is.gd,none,flaky,2026-09-29,實測間中出錯 後備tinyurl
+Google Sheets API,膠水,https://developers.google.com/sheets/api,free_key,ok,,旅團報名表當數據庫 香港用到
+Supabase,膠水,https://supabase.com,free_key,ok,,Postgres+登入免費層
+Firebase,膠水,https://firebase.google.com,free_key,ok,,香港用到
+Cloudflare Workers,膠水,https://workers.cloudflare.com,free_key,ok,,10萬req/日 做proxy藏key
+GitHub API+Actions,膠水,https://docs.github.com/rest,free_key,ok,,免費cron+靜態host
+OpenAI API,AI,https://platform.openai.com,paid,blocks_hk,2026-09-29,2024年7月起封香港 替代:Azure OpenAI/Copilot
+Anthropic Claude API,AI,https://www.anthropic.com/api,paid,blocks_hk,2026-09-29,每session實時查IP最嚴 替代:AWS Bedrock
+Google AI Studio/Gemini API,AI,https://ai.google.dev,free_key,blocks_hk,2026-09-29,網頁版2026年3月開放但API仍封 替代:Vertex AI
+Meta AI,AI,https://www.meta.ai,none,blocks_hk,2026-09-29,連WhatsApp版都封+852 Llama經OpenRouter/HF用冇問題
+NotebookLM,AI,https://notebooklm.google.com,free_key,blocks_hk,2026-09-29,個人版封 Workspace企業版香港用到
+Azure OpenAI,AI,https://azure.microsoft.com/products/ai-services/openai-service,paid,ok,,GPT香港合規路徑
+AWS Bedrock,AI,https://aws.amazon.com/bedrock/,paid,ok,,Claude香港合規路徑
+Vertex AI,AI,https://cloud.google.com/vertex-ai,paid,ok,,Gemini香港合規路徑 有免費credit
+DeepSeek API,AI,https://platform.deepseek.com,paid,ok,,極平 中文勁 香港原生
+阿里Qwen ModelStudio,AI,https://www.alibabacloud.com/product/modelstudio,free_key,ok,,有免費額度
+智譜GLM,AI,https://bigmodel.cn,free_key,ok,,GLM Flash有免費檔
+Moonshot Kimi,AI,https://platform.moonshot.ai,free_key,ok,,
+xAI Grok API,AI,https://x.ai/api,free_key,ok,,香港原生可用
+OpenRouter,AI,https://openrouter.ai,free_key,ok,,聚合器有免費模型 香港接觸海外模型通道
+GitHub Models,AI,https://github.com/marketplace/models,free_key,ok,,跟GitHub帳戶免費
+Hugging Face Inference,AI,https://huggingface.co/inference-api,free_key,ok,,
+Cloudflare Workers AI,AI,https://developers.cloudflare.com/workers-ai/,free_key,ok,,每日免費額度
+Perplexity Sonar API,AI,https://docs.perplexity.ai,paid,ok,,香港可用
+Midjourney,AI,https://www.midjourney.com,paid,unknown,,未搵到明確封港證據
+Mistral API,AI,https://mistral.ai,free_key,unknown,,未搵到明確封港證據
+Cohere API,AI,https://cohere.com,free_key,unknown,,未搵到明確封港證據
+wger健身,冷門-健身,https://wger.de/api/v2/exerciseinfo/,none,ok,2026-09-29,開源健身標準 912動作 可self-host
+Free Exercise DB,冷門-健身,https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/dist/exercises.json,none,ok,2026-09-29,GitHub神人 800+動作JSON+示範相 直接raw攞
+Yoga API,冷門-健身,https://yoga-api-nzy4.onrender.com/v1/poses,none,ok,2026-09-29,免費Render host冷啟動慢 可自己host
+ExerciseDB,冷門-健身,https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb,free_key,ok,,1300+動作連GIF 綁RapidAPI
+繩結API,冷門-繩結,,none,not_exist,2026-09-29,世上冇實用繩結API 用AnimatedKnots網站+Wikimedia Commons CC圖+自建
+Permapeople植物,冷門-求生,https://permapeople.org/knowledgebase/api-docs.html,free_key,ok,,植物可食性/毒性數據
+SurvivalManual離線手冊,冷門-求生,https://github.com/ligi/SurvivalManual,none,ok,,開源求生手冊app 可fork做中文版
+康文署文化節目XML,香港政府-活動,https://www.lcsd.gov.hk/datagovhk/event/events.xml,none,ok,2026-09-29,每日更新 音樂會/展覽/戲劇 中英齊
+旅發局HKTB活動,香港政府-活動,https://data.gov.hk/tc-data/dataset/hk-cstb-cstb_tc-tc-hktb-events,none,ok,,年度大型活動CSV/API
+Eventbrite,冷門-活動,https://www.eventbrite.com/platform/api,free_key,ok,,香港活動唔算多
+Thingiverse API,冷門-3D打印,https://www.thingiverse.com/developers,free_key,ok,,全球最大3D模型庫
+MyMiniFactory API,冷門-3D打印,https://www.myminifactory.com/api-doc/,free_key,ok,,全部人手驗證印得出
+OctoPrint REST API,冷門-3D打印,https://docs.octoprint.org/en/master/api/,self_host,ok,,遙控打印機/進度/webcam
+Stirling-PDF,冷門-文書,https://github.com/Stirling-Tools/Stirling-PDF,self_host,ok,,60+PDF功能 self-host有REST API
+Gotenberg,冷門-文書,https://gotenberg.dev,self_host,ok,,HTML/Office轉PDF Docker一句起
+CloudConvert,冷門-文書,https://cloudconvert.com/api/v2,free_key,ok,,200+格式 免費25次/日
+docxtemplater,冷門-文書,https://docxtemplater.com,none,ok,,JS庫 Word模板出證書獎狀
+public-apis目錄,GitHub神人,https://github.com/public-apis/public-apis,none,ok,,全球最大免費API目錄
+free-for.dev,GitHub神人,https://free-for.dev,none,ok,,開發者免費層總目錄
+awesome-selfhosted,GitHub神人,https://github.com/awesome-selfhosted/awesome-selfhosted,none,ok,,自host開源服務目錄
+RSSHub,GitHub神人,https://docs.rsshub.app,self_host,ok,,萬物轉RSS
+changedetection.io,GitHub神人,https://github.com/dgtlmoon/changedetection.io,self_host,ok,,監察網頁變化 盯冇API嘅頁面
+Uptime Kuma,GitHub神人,https://github.com/louislam/uptime-kuma,self_host,ok,,服務監控
+hk-independent-bus-eta,GitHub神人,https://github.com/hkbus/hk-independent-bus-eta,none,ok,,開源香港巴士app 學用HK交通API最佳範例
+DiceBear Avatar API,人物素材,https://api.dicebear.com/9.x/,none,ok,2026-09-29,30+風格 param換髮型衫色 可self-host 授權逐風格睇
+Open Peeps,人物素材,https://www.openpeeps.com,none,ok,,CC0手繪人物組件 頭髮表情pose任砌 換制服最理想
+Avataaars,人物素材,https://avataaars.com,none,ok,,免費卡通半身組件 Figma/Sketch齊
+Humaaans,人物素材,https://www.humaaans.com,none,ok,,全身mix-match專為換衫設計
+Open Doodles,人物素材,https://www.opendoodles.com,none,ok,,CC0手繪動作
+Multiavatar,人物素材,https://multiavatar.com,none,flaky,2026-09-29,API俾Cloudflare擋script 可self-host
+UI Avatars,人物素材,https://ui-avatars.com,none,ok,,名字縮寫頭像
+LPC像素人物生成器,人物素材,https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/,none,ok,,像素人物逐層砌+行路動畫 CC-BY-SA/GPL share-alike
+Kenney遊戲素材,人物素材,https://kenney.nl,none,ok,,CC0遊戲素材寶庫
+MakeHuman,人物素材,http://www.makehumancommunity.org,none,ok,,開源3D人體參數化生成
+Mixamo動作庫,人物素材,https://www.mixamo.com,free_key,ok,,2000+動作動畫自動rig 免費唔開源
+VRoid Studio,人物素材,https://vroid.com/en/studio,none,ok,,免費anime 3D 內置換衫
+Iconify API,圖標徽章,https://api.iconify.design,none,ok,2026-09-29,一個API查20萬icon 150+set 有搜尋 可self-host
+Game-icons.net,圖標徽章,https://game-icons.net,none,ok,2026-09-29,4133個 章設計最夾 CC BY 3.0要署名 經Iconify可call
+Lucide,圖標徽章,https://lucide.dev,none,ok,2026-09-29,ISC 1500+ unpkg CDN直連
+Tabler Icons,圖標徽章,https://tabler.io/icons,none,ok,2026-09-29,MIT 5800+
+Heroicons,圖標徽章,https://heroicons.com,none,ok,,MIT Tailwind御用
+Phosphor Icons,圖標徽章,https://phosphoricons.com,none,ok,,MIT 9000+ 六種粗細
+Bootstrap Icons,圖標徽章,https://icons.getbootstrap.com,none,ok,,MIT
+Material Symbols,圖標徽章,https://fonts.google.com/icons,none,ok,,Apache 2.0
+OpenMoji,圖標徽章,https://openmoji.org,none,ok,2026-09-29,CC BY-SA emoji SVG raw直攞
+Twemoji,圖標徽章,https://github.com/jdecked/twemoji,none,ok,,CC BY 4.0
+Shields.io徽章生成,圖標徽章,https://img.shields.io,none,ok,2026-09-29,badge SVG生成 中文都得
+Simple Icons,圖標徽章,https://simpleicons.org,none,ok,2026-09-29,3000+品牌logo CDN
+The Noun Project,圖標徽章,https://thenounproject.com/developers/,free_key,ok,,500萬icon 免費tier要署名
+Google Fonts API,圖標徽章,https://fonts.googleapis.com,none,ok,,思源黑體TC中文開源字體
+Open Badges標準,遊戲化,https://www.imsglobal.org/spec/ob/v3p0,none,ok,,1EdTech電子章國際標準 metadata烘入章圖可驗證
+Badgr Server,遊戲化,https://github.com/concentricsky/badgr-server,self_host,ok,,開源發章平台 有免費hosted tier
+Moodle,遊戲化,https://moodle.org,self_host,ok,,開源LMS 內建Open Badges+積分+排行榜 中文介面
+Habitica API,遊戲化,https://habitica.com/apidoc/,free_key,ok,2026-09-29,開源習慣RPG 要x-client header 可self-host
+Dreamlo排行榜,遊戲化,https://dreamlo.com,free_key,ok,2026-09-29,最簡排行榜 一條URL加分攞榜
+PlayFab,遊戲化,https://playfab.com,free_key,ok,,微軟遊戲後端 免費層10萬MAU 排行榜/成就
+LootLocker,遊戲化,https://lootlocker.com,free_key,ok,,遊戲後端免費層
+GameJolt API,遊戲化,https://gamejolt.com/game-api,free_key,ok,2026-09-29,積分榜+成就
+BadgeOS,遊戲化,https://github.com/opencredit/badgeos,self_host,ok,,WordPress發章plugin
+ReportLab,證書生成,https://www.reportlab.com/opensource/,none,ok,2026-09-29,已實戰示範demo 注意唔食CFF字體要用TTF
+WeasyPrint,證書生成,https://weasyprint.org,none,ok,,HTML+CSS轉PDF
+pdf-lib,證書生成,https://pdf-lib.js.org,none,ok,,瀏覽器內生成 可做純前端證書工具
+Typst,證書生成,https://typst.app,none,ok,,新世代開源排版 LaTeX後繼
+APITemplate.io,證書生成,https://apitemplate.io,free_key,ok,,每月50張免費
+PDFMonkey,證書生成,https://www.pdfmonkey.io,free_key,ok,,每月300張免費
+OpenCerts,證書生成,https://opencerts.io,none,ok,,新加坡GovTech開源 區塊鏈級文憑驗證
+Blockcerts,證書生成,https://www.blockcerts.org,none,ok,,MIT開源證書標準
+WOSM活動API,世界童軍,https://www.scout.org/events,none,not_exist,2026-09-29,官方冇API jsonapi 404 用網頁監察/RSSHub自製
+scout.org新聞RSS,世界童軍,https://www.scout.org/rss.xml,none,ok,2026-09-29,官方新聞feed 大活動公佈捕捉到
+Wikidata童軍數據,世界童軍,https://query.wikidata.org/sparql,none,ok,2026-09-29,歷屆大露營Q1364447/各國總會結構化 SPARQL
+JOTA-JOTI官網,世界童軍,https://www.jotajoti.info,none,unknown,2026-09-29,sandbox連唔到 香港再試 每年10月
+WAGGGS,世界童軍,https://www.wagggs.org,none,not_exist,2026-09-29,女童軍世界會同樣冇API
+Mapillary街景API,3D-AR遊戲,https://www.mapillary.com/developer,free_key,ok,2026-09-29,Meta開放街景 香港大量影像 GeoGuessr類遊戲相源
+KartaView,3D-AR遊戲,https://kartaview.org,free_key,ok,,開放街景同類
+GeoGuess開源版,3D-AR遊戲,https://github.com/GeoGuess/GeoGuess,none,ok,,GeoGuessr開源clone可fork
+政府三維數據CSDI,3D-AR遊戲,https://portal.csdi.gov.hk,none,hk_only,2026-09-29,香港3D建築模型/3D行人網絡免費 3d.map.gov.hk示範
+MapLibre GL,3D-AR遊戲,https://maplibre.org,none,ok,2026-09-29,開源地圖引擎 樓宇extrusion即有3D香港
+CesiumJS,3D-AR遊戲,https://cesium.com/platform/cesiumjs/,free_key,ok,,開源3D地球 ion有免費tier
+AR.js,3D-AR遊戲,https://github.com/AR-js-org/AR.js,none,ok,2026-09-29,Web AR王者 location-based AR做城市定向
+MindAR,3D-AR遊戲,https://github.com/hiukim/mind-ar-js,none,ok,,圖像追蹤webAR 影海報pop 3D
+model-viewer,3D-AR遊戲,https://modelviewer.dev,none,ok,,一個HTML tag顯示3D+AR
+Niantic Lightship,3D-AR遊戲,https://lightship.dev,free_key,ok,,PokemonGO同廠 VPS視覺定位 要Unity
+Turf.js,3D-AR遊戲,https://turfjs.org,none,ok,,geo計算庫 geofence/計距離核心
+Opencaching OKAPI,3D-AR遊戲,https://www.opencaching.de/okapi/,free_key,ok,2026-09-29,開放geocaching 87351個cache
+Colyseus,3D-AR遊戲,https://colyseus.io,none,ok,,開源multiplayer遊戲server
+Poly Haven,3D素材,https://api.polyhaven.com,none,ok,2026-09-29,CC0模型/HDRI/材質 電影級
+Sketchfab API,3D素材,https://api.sketchfab.com/v3/,free_key,ok,2026-09-29,search公開 download要免費OAuth
+Quaternius,3D素材,https://quaternius.com,none,ok,,CC0 low-poly包
+Godot引擎,3D-AR遊戲,https://godotengine.org,none,ok,,開源2D/3D引擎
+Phaser,3D-AR遊戲,https://phaser.io,none,ok,,2D web遊戲 配LPC像素工仔
+康文署全場地venue.json,公共設施,https://www.lcsd.gov.hk/datagovhk/venue/venue.json,none,ok,2026-09-29,623KB全場地地址電話開放時間
+康文署泳池GeoJSON,公共設施,https://www.lcsd.gov.hk/datagovhk/facility/facility-swimming-pools.json,none,ok,2026-09-29,45個泳池連座標 同系facility-beaches.json泳灘
+康文署關池實時API,公共設施,-,none,not_exist,2026-09-29,官方無 突發關池只出新聞稿 用hkpools或自行監察
+hkpools社群泳池JSON,公共設施,https://raw.githubusercontent.com/iristkats/hkpools/main/pools.json,none,ok,2026-09-29,日刮兩次 開放時段/清潔日/維修/臨時關閉 第三方
+食環署設施地圖XML,公共設施,https://www.fehd.gov.hk/english/map/fehd_map_e.xml,none,ok,2026-09-29,1374設施 808公廁+座標+開放時間+停用備註 每日更新
+郊野公園廁所,公共設施,https://portal.csdi.gov.hk/geoportal/?datasetId=afcd,none,ok,,AFCD 舊CSV停更 CSDI攞最新
+街道消防栓位置,公共設施,-,none,not_exist,2026-09-29,水務署/消防處均無開放 OSM僅339節點可自行補完
+消防處AED登記GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=hkfsd_rcd_1695974242578_37917&format=geojson&layer_name=AED,none,ok,2026-09-29,4189部AED連詳細位置/服務時間 急救神器
+消防局/救護站位置,公共設施,https://portal.csdi.gov.hk/geoportal/rest/metadata/item/hkfsd_rcd_1634798867463_89696?f=json,none,ok,2026-09-29,CSDI datasets 經file-api攞GeoJSON
+CSDI file-api萬用入口,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api,none,ok,2026-09-29,dataset_id+format+layer_name攞任何CSDI數據 海外IP都通
+CSDI metadata搜尋API,公共設施,https://portal.csdi.gov.hk/geoportal/rest/metadata/search?q=KEYWORD&f=json,none,ok,2026-09-29,程式化搜尋成個空間數據目錄
+泳池入場人次統計,公共設施,https://portal.csdi.gov.hk/geoportal/?datasetId=lcsd_rcd_1670393362105_82481,none,ok,,年度統計非實時
+郊野公園行山徑GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1665568199103_4360&format=geojson&layer_name=HikingTrails_HikingTrails_Ext_GDB,none,ok,2026-09-29,167段連長度起點
+行山標距柱GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1635136039113_86105&format=geojson&layer_name=DistancePosts_DistancePosts_Ext_GDB,none,ok,2026-09-29,1078支連編號 報案定位神器
+封閉山徑GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1742550096880_1424&format=geojson&layer_name=CPISDBOCLOSED_TRAIL_IN_CP_GDB,none,ok,2026-09-29,實時性 計劃路線先剔走
+郊野公園關閉設施,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1728897009646_22480&format=geojson&layer_name=Closed_Facilities_in_Country_Parks,none,ok,2026-09-29,19項實時關閉狀態
+郊野營地GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1635133060194_82554&format=geojson&layer_name=Campsites_Campsites_Ext_GDB,none,ok,2026-09-29,41個連水源欄位
+郊野燒烤場GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1635132752214_22438&format=geojson&layer_name=BarbecueSitesincludeWheelchairSite_BarbecueSites_Ext_GDB,none,ok,2026-09-29,155個
+郊野觀景點GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1635142967951_6079&format=geojson&layer_name=ViewingPoints_ViewingPoints_Ext_GDB,none,ok,2026-09-29,78個
+郊野景點GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1728896853370_57183&format=geojson&layer_name=Attractions_in_Country_Parks,none,ok,2026-09-29,53個連網址
+郊野加水站GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=afcd_rcd_1635133835075_48993&format=geojson&layer_name=WaterFillingStation_WaterFillingStation_Ext_GDB,none,ok,2026-09-29,37個
+康文署燒烤場GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=lcsd_rcd_1634540957025_61259&format=geojson&layer_name=LCSD_BBQ,none,ok,2026-09-29,43個市區燒烤場
+環保署回收點總庫,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=epd_rcd_1630899452408_9505&format=geojson&layer_name=geotagging,none,ok,2026-09-29,8858個含綠在區區+狀態欄
+入樽機RVM位置,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=epd_rcd_1638153978303_23086&format=geojson&layer_name=RVMPS,none,ok,2026-09-29,120部
+舊衣回收箱位置,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=had_rcd_1665042410524_59761&format=geojson&layer_name=geotagging,none,ok,2026-09-29,187個
+LCSD飲水機GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=lcsd_rcd_1671530248519_33416&format=geojson&layer_name=geotagging,none,ok,2026-09-29,1040部
+政府場地公用飲水機,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=epd_rcd_1638154342238_45289&format=geojson&layer_name=EPDWD,none,ok,2026-09-29,374部
+FEHD飲水機GeoJSON,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=fehd_rcd_1629969846020_11292&format=geojson&layer_name=FEHD_WDPM,none,ok,2026-09-29,64部
+郊野涼亭位置,公共設施,-,none,not_exist,2026-09-29,官方無單獨數據 用OSM amenity=shelter補
+路政署燈柱位置+編號,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=hyd_rcd_1629267205229_84645&format=geojson&layer_name=Lamppost,none,ok,2026-09-29,144873支 LAMP_NO+街道+座標 市區報位網格 49MB宜切區
+多功能智慧燈柱,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=dpo_rcd_1633684022403_5010&format=geojson&layer_name=DPO_MFSL,none,ok,2026-09-29,485支連編號
+智慧燈柱實時氣象,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=hko_rcd_1634873892309_46072&format=geojson&layer_name=smart_lamppost,none,ok,2026-09-29,25支 屬性內嵌HKO weatherAPI數據URL
+智慧燈柱空氣質素,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=epd_rcd_1631501732991_89126&format=geojson&layer_name=Smart_Lampposts_Air_Quality_Data_map,none,ok,2026-09-29,11支 NO/NO2/PM2.5
+供水管網位置編號,公共設施,-,none,not_exist,2026-09-29,水務署唔公開 同消防栓一樣運作保安考慮
+爆水管實時報告,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=wsd_rcd_1696487849658_94872&format=geojson&layer_name=Report_of_Main_Burst_Case,none,ok,2026-09-29,實時 位置欄用燈柱編號寫
+渠務署雨水渠管網,公共設施,https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=dsd_rcd_1629267205232_85526&format=geojson&layer_name=Pipe_Stormwater,none,ok,2026-09-29,107144段連FEAT_NUM編號 同系有沙井/出水口
