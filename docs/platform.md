@@ -2,6 +2,9 @@
 
 平台本身都有 API，用嚟搵數據集同攞歷史版本，全部 ❌ 唔使 Key。
 
+> 📊 想搵「某部門有咩數據集」或者「統計處 639 張表號」，睇 **[censtatd.md](censtatd.md)**——
+> 嗰邊有齊全機構代碼表、`package_search` 實戰 query、filter API 完整 JSON 規格同歷史檔案 5 條端點。
+
 ## 1. CKAN 目錄 API — programmatically 搜數據集 ✅
 
 ```bash
@@ -58,3 +61,14 @@ curl "https://api.data.gov.hk/v1/nearest-schools?lat=22.2812&long=114.1659&max=5
 | `hk-lcsd` | 康文署 |
 | `hk-hkma` | 金管局 |
 | `hk-landsd` | 地政總署 |
+| `hk-censtatd` | 政府統計處 |
+| `hk-swd` | 社會福利署 |
+| `hk-wsd` | 水務署 |
+| `hk-emsd` | 機電工程署 |
+| `hk-dsd` | 渠務署 |
+| `hk-cedd` | 土木工程拓展署 |
+| `hk-hkpf` | 警務處 |
+| `hk-edb` | 教育局 |
+| `hk-cstb` | 文化體育及旅遊局 |
+
+> 全 130+ 個代碼（部門＋公營機構＋電車／渡輪／的士車隊）見 [censtatd.md 附錄](censtatd.md#7-附錄datagovhk-數據提供機構代碼provider-參數用)。

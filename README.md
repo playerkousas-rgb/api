@@ -3,7 +3,7 @@
 > 收集晒香港政府同埋喺香港用到嘅免費 API，全部分類整理、附實測狀態同 curl 例子。
 > 整 side project、bot、dashboard 之前嚟呢度搵就得。
 
-**最後更新：2026-09-29** ｜ 標示 ✅ = 當日實測成功
+**最後更新：2026-11-03** ｜ 標示 ✅ = 當日實測成功
 
 ## 💡 三個重點
 
@@ -21,6 +21,7 @@
 | 💰 金融經濟 | 金管局 HKMA、Open Banking | [docs/finance.md](docs/finance.md) |
 | 🗺️ 地圖地理 | 地址查詢 ALS、地點搜尋、CSDI、地圖底圖 | [docs/geo.md](docs/geo.md) |
 | 🏛️ 民生社會 | 公眾假期、康文署、學校、立法會、統計處、油價 | [docs/civic.md](docs/civic.md) |
+| 📊 **統計處／DATA.GOV.HK 大全** | 639 張統計表 API、592 個數據集清單、平台 API、全機構代碼表 | [docs/censtatd.md](docs/censtatd.md) |
 | 🔧 平台工具 | DATA.GOV.HK 本身嘅 API（歷史檔案/篩選/目錄） | [docs/platform.md](docs/platform.md) |
 | 🌐 非政府免費 API | 喺香港常用嘅第三方免費 API | [docs/non-gov.md](docs/non-gov.md) |
 | 🌍 世界 API（童軍向） | eBird、iNaturalist、NASA、Overpass、海拔、觀星 | [docs/world-scout.md](docs/world-scout.md) |
@@ -56,6 +57,9 @@ curl "https://www.ha.org.hk/opendata/aed/aedwtdata2-tc.json"
 
 # 今日機場航班（機管局）
 curl "https://www.hongkongairport.com/flightinfo-rest/rest/flights/past?date=2026-09-29&lang=zh_HK&cargo=false&arrival=true"
+
+# 各區人口密度（政府統計處，表 110-02001）
+curl "https://www.censtatd.gov.hk/api/get.php?id=110-02001&lang=tc&full_series=1"
 ```
 
 更多例子睇 [examples/](examples/)。
@@ -79,6 +83,8 @@ curl "https://www.hongkongairport.com/flightinfo-rest/rest/flights/past?date=202
 | 地址查詢 ALS | 政府資科辦 | ❌ | ✅ |
 | 地點搜尋 / CSDI 圖層 | 地政總署 | ❌ | ⚠️ 本地用 |
 | 公眾假期 | 1823 | ❌ | ✅ |
+| 政府統計處網上統計表 API（639 張） | 政府統計處 | ❌ | ✅ |
+| DATA.GOV.HK 歷史檔案／篩選／CKAN 目錄 | 數字政策辦公室 | ❌ | ✅ |
 | 香港地圖服務（官方地圖 tiles） | 地政總署 | 🔑 免費註冊 | — |
 | SmartPLAY 康體設施 | 康文署 | ⛔ 無官方 API | — |
 

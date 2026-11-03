@@ -31,8 +31,19 @@ case "${1:-help}" in
     curl -s "https://www.aqhi.gov.hk/epd/ddata/html/out/24aqhi_Eng.xml" ;;
   13) # 地震速報
     curl -s "https://data.weather.gov.hk/weatherAPI/opendata/earthquake.php?dataType=qem&lang=tc" ;;
+  14) # 各區人口密度（統計處 表110-02001）
+    curl -s "https://www.censtatd.gov.hk/api/get.php?id=110-02001&lang=tc&full_series=1" ;;
+  15) # 消費物價指數 CPI（統計處 表510-60001）
+    curl -s "https://www.censtatd.gov.hk/api/get.php?id=510-60001&lang=tc&full_series=1" ;;
+  16) # 失業率／勞動人口（統計處 表210-06101）
+    curl -s "https://www.censtatd.gov.hk/api/get.php?id=210-06101&lang=tc&full_series=1" ;;
+  17) # 外幣兌換率（統計處 表340-46001）
+    curl -s "https://www.censtatd.gov.hk/api/get.php?id=340-46001&lang=tc&full_series=1" ;;
+  18) # 統計處全部 592 個數據集清單（CKAN）
+    curl -s "https://data.gov.hk/tc-data/api/3/action/package_search?q=organization:hk-censtatd&rows=1000&fl=name,title" ;;
   *)
-    echo "用法: bash curl-examples.sh <1-13>"
+    echo "用法: bash curl-examples.sh <1-18>"
     echo " 1=現時天氣 2=九天預報 3=天氣警告 4=九巴路線 5=港鐵班次"
-    echo " 6=城巴路線 7=急症室 8=泊車 9=假期 10=航班 11=地址 12=AQHI 13=地震" ;;
+    echo " 6=城巴路線 7=急症室 8=泊車 9=假期 10=航班 11=地址 12=AQHI 13=地震"
+    echo " 14=人口密度 15=CPI 16=失業率 17=匯率 18=統計處數據集清單" ;;
 esac
