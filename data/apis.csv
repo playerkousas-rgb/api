@@ -29,7 +29,12 @@ CSDI空間數據,香港政府-地理,https://portal.csdi.gov.hk,none,ok,,GeoJSON
 公眾假期1823,香港政府-民生,https://www.1823.gov.hk/common/ical/tc.json,none,ok,2026-09-29,JSON+iCal
 康文署設施數據,香港政府-民生,https://data.gov.hk/tc-datasets/provider/hk-lcsd,none,ok,,注意SmartPLAY訂場冇官方API
 立法會OData,香港政府-民生,https://www.legco.gov.hk/odata/chinese/index.html,none,ok,,表決/議員/會議
-統計處C&SD API,香港政府-民生,https://www.censtatd.gov.hk/api/,none,ok,,人口/CPI/GDP
+統計處網上統計表API,香港政府-統計,https://www.censtatd.gov.hk/api/get.php,none,ok,2026-11-03,639張表 full_series=1 攞全序列 詳見docs/censtatd.md
+統計處API全表一覽,香港政府-統計,https://www.censtatd.gov.hk/tc/API.html,none,ok,2026-11-03,639張表一覽每張有現成URL 搜表號最快
+統計處API使用者指南,香港政府-統計,https://www.censtatd.gov.hk/tc/API_Guide.html,none,ok,2026-11-03,OpenAPI 3.0 YAML+Python範例+AI agent SKILL.md
+CKAN目錄搜統計處數據集,香港政府-統計,https://data.gov.hk/tc-data/api/3/action/package_search?q=organization%3Ahk-censtatd&rows=1000,none,ok,2026-11-03,592個數據集 name前綴可反推表號
+CKAN目錄全站統計,香港政府-統計,https://data.gov.hk/tc-data/api/3/action/package_search?rows=0&facet.field=%5B%22organization%22%5D,none,ok,2026-11-03,全站864個 按機構facet分佈
+DATA.GOV.HK機構清單,香港政府-統計,https://data.gov.hk/tc-data/api/3/action/organization_list,none,ok,2026-11-03,130+機構代碼 all_fields=true有中文名
 消委會油價通,香港政府-民生,https://data.gov.hk/tc-datasets?q=oil%20price,none,ok,,舊直連URL已改版 以數據集頁為準
 消委會網上價格一覽通,日常,https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json,none,ok,2026-09-29,全港超市逐件產品每日價格
 食環署誘蚊器指數,香港政府-戶外,https://data.gov.hk/tc-datasets?q=誘蚊器,none,ok,,蚊患指數 露營選址參考

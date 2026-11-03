@@ -33,8 +33,13 @@ curl "https://api.data.gov.hk/v1/nearest-schools?lat=22.2812&long=114.1659&max=5
 
 ## 政府統計處 C&SD
 
-- 人口、CPI、GDP、對外貿易等統計 API：[www.censtatd.gov.hk/api/](https://www.censtatd.gov.hk/tc/web_table.html)
+- 人口、CPI、GDP、對外貿易等統計 API：[API 使用者指南](https://www.censtatd.gov.hk/tc/API_Guide.html)
+- 一條 URL 攞成條時間序列（639 張網上統計表，全部唔使 Key）：
+  ```bash
+  curl "https://www.censtatd.gov.hk/api/get.php?id=110-02001&lang=tc&full_series=1"   # 各區人口密度
+  ```
 - 支援 JSON，可以砌自動更新嘅經濟 dashboard
+- 📚 **表號速查、回應結構、單位陷阱、全機構代碼表 → [censtatd.md](censtatd.md)**
 
 ## 油價（消委會「油價通」）
 
